@@ -1,0 +1,75 @@
+.divFormJDMR {
+  display: flex;
+  flex-direction: column;
+}
+
+.divNombreJDMR {
+  display: flex;
+  flex-direction: column;
+}
+
+.divApellidoJDMR {
+  display: flex;
+  flex-direction: column;
+}
+.divApellidoJDMR input{
+  background-color: #90c7ec;
+}
+.controlsJDMR {
+  display: flex;
+  gap: 10px;
+}
+
+.botonJDMR {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divTableJDMR  table{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.divTableJDMR table th{
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+.divTableJDMR table td{
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+.botonJDMR button{
+  width: 100px;
+  height: 30px;
+  background-color: #5fb2e9;
+}
+
+.inputsJDMR {
+  height: 20px;
+}
+
+.btnTableEJDMR{
+  background-color: rgb(82, 242, 106);
+}
+
+.btnTableDJDMR{
+  background-color: rgb(246, 109, 109);
+}
+
+.divTableJDMR button{
+  margin: 2px;
+}
+
+#divFormJDMR{
+  border: 2px black solid;
+  border-collapse: collapse;
+  width: 30%;
+  padding: 20px;
+}
+
+.header{
+  border-bottom: 2px solid;
+}
+

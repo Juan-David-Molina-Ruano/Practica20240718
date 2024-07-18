@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Crear Cliente</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div id="divFormJDMR">
+      <div id="formBodyJDMR">
+        <div class="header"><h3>Crear Cliente</h3></div>
+        <div class="controlsJDMR">
+          <div class="divNombreJDMR">
+            <label for="">Nombre</label>
+            <input id="txtNombreJDMR" class="inputsJDMR" type="text">
+          </div>
+          <div class="divApellidoJDMR">
+            <label for="">Apellido</label>
+            <input type="text" class="inputsJDMR">
+          </div>
+        </div>
+        <div class="botonJDMR">
+          <button onclick="buscar()">Buscar</button>
+        </div>
+
+        <div class="divTableJDMR">
+          <table>
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Categoria</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Marvin</td>
+                <td>Barrera</td>
+                <td rowspan="2">Categoria</td>
+                <td>
+                  <button class="btnTableEJDMR">E</button
+                  ><button class="btnTableDJDMR">D</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Mateo</td>
+                <td>Rivas</td>
+                <td>
+                  <button class="btnTableEJDMR">E</button
+                  ><button class="btnTableDJDMR">D</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
